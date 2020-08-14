@@ -33,5 +33,8 @@ Burp proxy-history/Repeater 中右键手动转发
 ![](assets/2020-08-14-20-34-09.png)
 ![](assets/2020-08-14-20-34-38.png)
 
-## 0x04 参考
+## 0x04 注意事项
+- 手动重发不受自动转发规则的限制
+- 端口修改后需要run一下触发配置修改，手动重发才会使用新端口
+## 0x05 参考
 * [c0ny1](https://github.com/c0ny1/passive-scan-client) 被动扫描流量转发插件
